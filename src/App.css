@@ -1,0 +1,19 @@
+:root { font-family: system-ui, Segoe UI, Roboto, sans-serif; color: #1f2937; }
+body { margin: 0; background: #f3f4f6; }
+.page { max-width: 900px; margin: 0 auto; padding: 16px; }
+.hero { background: linear-gradient(135deg, #0f766e, #14b8a6); color: #fff; border-radius: 14px; padding: 24px; text-align: center; }
+.hero h1 { margin: 0 0 6px; }
+.hero p { margin: 0; opacity: .9; }
+.panel { background: #fff; border-radius: 12px; padding: 16px 20px; margin-top: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.panel h2 { margin-top: 0; font-size: 18px; }
+.status { list-style: none; padding: 0; margin: 0; line-height: 1.8; word-break: break-all; }
+.ok { color: #15803d; font-weight: 700; }
+.warn { color: #b45309; font-weight: 700; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; }
+.card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px; }
+.card h3 { margin: 8px 0 4px; font-size: 16px; }
+.tag { background: #ccfbf1; color: #0f766e; font-size: 12px; padding: 2px 8px; border-radius: 999px; }
+.price { margin: 0; font-weight: 700; color: #0f766e; }
+.error { background: #fef2f2; color: #991b1b; border-radius: 8px; padding: 12px; }
+button { background: #0f766e; color: #fff; border: 0; border-radius: 8px; padding: 8px 16px; cursor: pointer; }
+footer { text-align: center; color: #6b7280; font-size: 13px; margin: 20px 0; }
